@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9605F2AE2A08CF9300429B2C /* DropDownItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2AD2A08CF9300429B2C /* DropDownItemView.swift */; };
+		9605F2B02A08CFE000429B2C /* DropDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2AF2A08CFE000429B2C /* DropDownListView.swift */; };
+		9605F2B22A08D02D00429B2C /* DropdownMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2B12A08D02D00429B2C /* DropdownMenuView.swift */; };
+		9605F2B72A08D61700429B2C /* PharmacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2B62A08D61700429B2C /* PharmacyViewModel.swift */; };
+		9605F2B92A08D85C00429B2C /* HosptalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2B82A08D85C00429B2C /* HosptalViewModel.swift */; };
+		9605F2BB2A08DABD00429B2C /* LabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2BA2A08DABD00429B2C /* LabViewModel.swift */; };
+		9660DCA82A052CA200C5E59C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660DCA72A052CA200C5E59C /* TabView.swift */; };
+		9660DCAA2A052DA700C5E59C /* LabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660DCA92A052DA700C5E59C /* LabsView.swift */; };
+		9684737429F90F9A0051939E /* WeCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684737329F90F9A0051939E /* WeCareApp.swift */; };
+		9684737829F90F9A0051939E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9684737729F90F9A0051939E /* Assets.xcassets */; };
+		9684737B29F90F9A0051939E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9684737A29F90F9A0051939E /* Preview Assets.xcassets */; };
+		9684738229F9115C0051939E /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684738129F9115C0051939E /* AuthButton.swift */; };
+		9684738429F9116F0051939E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684738329F9116F0051939E /* LandingView.swift */; };
+		9684738629F91BB20051939E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684738529F91BB20051939E /* LoginView.swift */; };
+		9684738929F91BCD0051939E /* LoginTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684738829F91BCD0051939E /* LoginTF.swift */; };
+		9688FEC52A017BE7005EF108 /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9688FEC42A017BE7005EF108 /* AppointmentsView.swift */; };
+		9688FEC72A017CA5005EF108 /* MedicalHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9688FEC62A017CA5005EF108 /* MedicalHistoryView.swift */; };
+		9688FEC92A017EB0005EF108 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9688FEC82A017EB0005EF108 /* ProfileView.swift */; };
+		9688FECB2A018102005EF108 /* HospitalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9688FECA2A018102005EF108 /* HospitalView.swift */; };
+		96AD17092A0839A700CA610F /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD17082A0839A700CA610F /* SignupView.swift */; };
+		96AD170B2A083DFF00CA610F /* PharmacyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD170A2A083DFF00CA610F /* PharmacyDetails.swift */; };
+		96FB041F29FD2221004D8080 /* FoundationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB041E29FD2221004D8080 /* FoundationItemView.swift */; };
+		96FB042129FD2248004D8080 /* PharmaciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB042029FD2248004D8080 /* PharmaciesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9605F2AD2A08CF9300429B2C /* DropDownItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownItemView.swift; sourceTree = "<group>"; };
+		9605F2AF2A08CFE000429B2C /* DropDownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownListView.swift; sourceTree = "<group>"; };
+		9605F2B12A08D02D00429B2C /* DropdownMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuView.swift; sourceTree = "<group>"; };
+		9605F2B62A08D61700429B2C /* PharmacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewModel.swift; sourceTree = "<group>"; };
+		9605F2B82A08D85C00429B2C /* HosptalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HosptalViewModel.swift; sourceTree = "<group>"; };
+		9605F2BA2A08DABD00429B2C /* LabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewModel.swift; sourceTree = "<group>"; };
+		9660DCA72A052CA200C5E59C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9660DCA92A052DA700C5E59C /* LabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabsView.swift; sourceTree = "<group>"; };
+		9684737029F90F9A0051939E /* WeCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9684737329F90F9A0051939E /* WeCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCareApp.swift; sourceTree = "<group>"; };
+		9684737729F90F9A0051939E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9684737A29F90F9A0051939E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9684738129F9115C0051939E /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		9684738329F9116F0051939E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		9684738529F91BB20051939E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9684738829F91BCD0051939E /* LoginTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTF.swift; sourceTree = "<group>"; };
+		9688FEC42A017BE7005EF108 /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
+		9688FEC62A017CA5005EF108 /* MedicalHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalHistoryView.swift; sourceTree = "<group>"; };
+		9688FEC82A017EB0005EF108 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9688FECA2A018102005EF108 /* HospitalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalView.swift; sourceTree = "<group>"; };
+		96AD17082A0839A700CA610F /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		96AD170A2A083DFF00CA610F /* PharmacyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetails.swift; sourceTree = "<group>"; };
+		96FB041E29FD2221004D8080 /* FoundationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationItemView.swift; sourceTree = "<group>"; };
+		96FB042029FD2248004D8080 /* PharmaciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9684736D29F90F9A0051939E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9605F2AC2A08CF8200429B2C /* Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				9605F2AD2A08CF9300429B2C /* DropDownItemView.swift */,
+				9605F2AF2A08CFE000429B2C /* DropDownListView.swift */,
+				9605F2B12A08D02D00429B2C /* DropdownMenuView.swift */,
+			);
+			path = Dropdown;
+			sourceTree = "<group>";
+		};
+		9605F2B32A08D36900429B2C /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9605F2B62A08D61700429B2C /* PharmacyViewModel.swift */,
+				9605F2B82A08D85C00429B2C /* HosptalViewModel.swift */,
+				9605F2BA2A08DABD00429B2C /* LabViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		9684736729F90F9A0051939E = {
+			isa = PBXGroup;
+			children = (
+				9684737229F90F9A0051939E /* WeCare */,
+				9684737129F90F9A0051939E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9684737129F90F9A0051939E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9684737029F90F9A0051939E /* WeCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9684737229F90F9A0051939E /* WeCare */ = {
+			isa = PBXGroup;
+			children = (
+				9605F2B32A08D36900429B2C /* VIewModel */,
+				9605F2AC2A08CF8200429B2C /* Dropdown */,
+				96AD170A2A083DFF00CA610F /* PharmacyDetails.swift */,
+				96FB041E29FD2221004D8080 /* FoundationItemView.swift */,
+				96FB042029FD2248004D8080 /* PharmaciesView.swift */,
+				9684737329F90F9A0051939E /* WeCareApp.swift */,
+				9684738129F9115C0051939E /* AuthButton.swift */,
+				9684738329F9116F0051939E /* LandingView.swift */,
+				9684738729F91BB70051939E /* Login */,
+				9684737729F90F9A0051939E /* Assets.xcassets */,
+				9684737929F90F9A0051939E /* Preview Content */,
+				9688FEC42A017BE7005EF108 /* AppointmentsView.swift */,
+				9688FEC82A017EB0005EF108 /* ProfileView.swift */,
+				96AD17082A0839A700CA610F /* SignupView.swift */,
+				9688FEC62A017CA5005EF108 /* MedicalHistoryView.swift */,
+				9688FECA2A018102005EF108 /* HospitalView.swift */,
+				9660DCA72A052CA200C5E59C /* TabView.swift */,
+				9660DCA92A052DA700C5E59C /* LabsView.swift */,
+			);
+			path = WeCare;
+			sourceTree = "<group>";
+		};
+		9684737929F90F9A0051939E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9684737A29F90F9A0051939E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9684738729F91BB70051939E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9684738529F91BB20051939E /* LoginView.swift */,
+				9684738829F91BCD0051939E /* LoginTF.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9684736F29F90F9A0051939E /* WeCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9684737E29F90F9A0051939E /* Build configuration list for PBXNativeTarget "WeCare" */;
+			buildPhases = (
+				9684736C29F90F9A0051939E /* Sources */,
+				9684736D29F90F9A0051939E /* Frameworks */,
+				9684736E29F90F9A0051939E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeCare;
+			productName = WeCare;
+			productReference = 9684737029F90F9A0051939E /* WeCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9684736829F90F9A0051939E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9684736F29F90F9A0051939E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 9684736B29F90F9A0051939E /* Build configuration list for PBXProject "WeCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9684736729F90F9A0051939E;
+			productRefGroup = 9684737129F90F9A0051939E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9684736F29F90F9A0051939E /* WeCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9684736E29F90F9A0051939E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9684737B29F90F9A0051939E /* Preview Assets.xcassets in Resources */,
+				9684737829F90F9A0051939E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9684736C29F90F9A0051939E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AD17092A0839A700CA610F /* SignupView.swift in Sources */,
+				96FB041F29FD2221004D8080 /* FoundationItemView.swift in Sources */,
+				9684738929F91BCD0051939E /* LoginTF.swift in Sources */,
+				9688FEC92A017EB0005EF108 /* ProfileView.swift in Sources */,
+				9688FECB2A018102005EF108 /* HospitalView.swift in Sources */,
+				9684738229F9115C0051939E /* AuthButton.swift in Sources */,
+				96FB042129FD2248004D8080 /* PharmaciesView.swift in Sources */,
+				9688FEC72A017CA5005EF108 /* MedicalHistoryView.swift in Sources */,
+				9605F2AE2A08CF9300429B2C /* DropDownItemView.swift in Sources */,
+				9605F2B72A08D61700429B2C /* PharmacyViewModel.swift in Sources */,
+				9684738429F9116F0051939E /* LandingView.swift in Sources */,
+				9605F2B22A08D02D00429B2C /* DropdownMenuView.swift in Sources */,
+				9688FEC52A017BE7005EF108 /* AppointmentsView.swift in Sources */,
+				9684738629F91BB20051939E /* LoginView.swift in Sources */,
+				9605F2B02A08CFE000429B2C /* DropDownListView.swift in Sources */,
+				96AD170B2A083DFF00CA610F /* PharmacyDetails.swift in Sources */,
+				9605F2B92A08D85C00429B2C /* HosptalViewModel.swift in Sources */,
+				9660DCA82A052CA200C5E59C /* TabView.swift in Sources */,
+				9605F2BB2A08DABD00429B2C /* LabViewModel.swift in Sources */,
+				9660DCAA2A052DA700C5E59C /* LabsView.swift in Sources */,
+				9684737429F90F9A0051939E /* WeCareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9684737C29F90F9A0051939E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9684737D29F90F9A0051939E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9684737F29F90F9A0051939E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeCare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifr.WeCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9684738029F90F9A0051939E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeCare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifr.WeCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9684736B29F90F9A0051939E /* Build configuration list for PBXProject "WeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9684737C29F90F9A0051939E /* Debug */,
+				9684737D29F90F9A0051939E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9684737E29F90F9A0051939E /* Build configuration list for PBXNativeTarget "WeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9684737F29F90F9A0051939E /* Debug */,
+				9684738029F90F9A0051939E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9684736829F90F9A0051939E /* Project object */;
+}
