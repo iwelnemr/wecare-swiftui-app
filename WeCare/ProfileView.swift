@@ -20,7 +20,7 @@ struct ProfileView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Text("JOHN DOE")
                     Text("All state ins.")
-                    Text("PRIMUIM PLAN")
+                    Text("PREMIUM PLAN")
                     Text("INSURANCE ID: 12345678")
                 }
                 Spacer()
@@ -30,7 +30,7 @@ struct ProfileView: View {
             
             VStack(spacing: 20) {
                 AuthButton(buttonText: .constant("CHANGE PERSONAL INFORMATION"), actionBool: .constant(false), isPressed: .constant(nil))
-                AuthButton(buttonText: .constant("VIEW EMERGANCY DETAILS"), actionBool: .constant(false), isPressed: .constant(nil))
+                AuthButton(buttonText: .constant("VIEW EMERGENCY DETAILS"), actionBool: .constant(false), isPressed: .constant(nil))
                 AuthButton(buttonText: .constant("VIEW DASHBOARD"), actionBool: .constant(false), isPressed: .constant(nil))
                 AuthButton(buttonText: .constant("LOGOUT"), actionBool: .constant(false), isPressed: .constant(nil))
             }
