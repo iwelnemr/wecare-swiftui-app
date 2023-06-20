@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F8538202A4212C7001006B2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F85381F2A4212C7001006B2 /* DashboardView.swift */; };
 		9605F2AE2A08CF9300429B2C /* DropDownItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2AD2A08CF9300429B2C /* DropDownItemView.swift */; };
 		9605F2B02A08CFE000429B2C /* DropDownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2AF2A08CFE000429B2C /* DropDownListView.swift */; };
 		9605F2B22A08D02D00429B2C /* DropdownMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F2B12A08D02D00429B2C /* DropdownMenuView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F85381F2A4212C7001006B2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		9605F2AD2A08CF9300429B2C /* DropDownItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownItemView.swift; sourceTree = "<group>"; };
 		9605F2AF2A08CFE000429B2C /* DropDownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownListView.swift; sourceTree = "<group>"; };
 		9605F2B12A08D02D00429B2C /* DropdownMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				9605F2AC2A08CF8200429B2C /* Dropdown */,
 				96AD170A2A083DFF00CA610F /* PharmacyDetails.swift */,
 				96FB041E29FD2221004D8080 /* FoundationItemView.swift */,
+				0F85381F2A4212C7001006B2 /* DashboardView.swift */,
 				96FB042029FD2248004D8080 /* PharmaciesView.swift */,
 				9684737329F90F9A0051939E /* WeCareApp.swift */,
 				9684738129F9115C0051939E /* AuthButton.swift */,
@@ -235,6 +238,7 @@
 				9605F2B02A08CFE000429B2C /* DropDownListView.swift in Sources */,
 				96AD170B2A083DFF00CA610F /* PharmacyDetails.swift in Sources */,
 				9605F2B92A08D85C00429B2C /* HosptalViewModel.swift in Sources */,
+				0F8538202A4212C7001006B2 /* DashboardView.swift in Sources */,
 				9660DCA82A052CA200C5E59C /* TabView.swift in Sources */,
 				9605F2BB2A08DABD00429B2C /* LabViewModel.swift in Sources */,
 				9660DCAA2A052DA700C5E59C /* LabsView.swift in Sources */,
@@ -367,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeCare/Preview Content\"";
+				DEVELOPMENT_TEAM = B36JT4R728;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -395,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeCare/Preview Content\"";
+				DEVELOPMENT_TEAM = B36JT4R728;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -25,9 +25,10 @@ struct PharmaciesView: View {
             ScrollView{
                 
                 VStack{
-                    ForEach(pharmacyViewModel.pharmacies.indices){index in
-                        NavigationLink(destination: PharmacyDetails()) {
-                            FoundationItemView(item: $pharmacyViewModel.pharmacies[index])
+                    ForEach(pharmacyViewModel.pharmacies.indices)
+                        {
+                            index in NavigationLink(destination: PharmacyDetails()) {
+                                FoundationItemView(item: $pharmacyViewModel.pharmacies[index])
                         }
 
                     }
